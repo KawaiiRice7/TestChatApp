@@ -11,9 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlDAL", "SqlServerAL\SqlDA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreDomain", "CoreDomain\CoreDomain.csproj", "{3647078B-5BC7-45A3-9FD6-D06730B3A76C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestClient", "KawaiiChatroomClient\TestClient.csproj", "{5A52229B-6099-4A64-85A5-6E1A416A8A9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestClient", "TestClient\TestClient.csproj", "{5A52229B-6099-4A64-85A5-6E1A416A8A9D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatroomUnitTesting", "ChatroomUnitTesting\ChatroomUnitTesting.csproj", "{50AC240F-9D98-4A71-961A-FCDF0DB7D3A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{50AC240F-9D98-4A71-961A-FCDF0DB7D3A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
