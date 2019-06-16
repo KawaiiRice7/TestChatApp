@@ -20,8 +20,7 @@ namespace KawaiiChatroomClient
             Message message = new Message();
 
             // Establish the remote endpoint for the socket. This example uses port 11111 on the local computer. 
-            //IPHostEntry ipHost = Dns.GetHostEntry(Dns.GetHostName());
-            IPHostEntry ipHost = Dns.GetHostEntry("waws-prod-mwh-021.cloudapp.net");
+            IPHostEntry ipHost = Dns.GetHostEntry(Dns.GetHostName());
             IPAddress ipAddr = ipHost.AddressList[0];
             IPEndPoint localEndPoint = new IPEndPoint(ipAddr, portNum);
 
@@ -97,7 +96,6 @@ namespace KawaiiChatroomClient
                 var response = Encoding.ASCII.GetString(loginResponseBytes, 0, loginResponseInt);
 
                 authenticated = Encoding.ASCII.GetString(loginResponseBytes, 0, loginResponseInt) == "true" ? true : false;
-                //return Encoding.ASCII.GetString(loginResponseBytes, 0, loginResponseInt) == "true" ? true : false;
             }
         }
 

@@ -12,6 +12,5 @@ namespace CoreDomain
         public DateTime Date { get; set; }
 
         public Message() { }
-        //public Message() { }
     }
 }
